@@ -11,4 +11,4 @@ By using this software, the user acknowledges that they have read and understood
 
 ## How does it work?
 
-Check my blog post for more info
+Check my blog post for more info: [https://blog.jackrendor.dev/posts/rewriting-exploits/](https://blog.jackrendor.dev/posts/rewriting-exploits/)
